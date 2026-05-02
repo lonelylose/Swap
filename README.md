@@ -17,15 +17,15 @@ wget https://raw.githubusercontent.com/lonelylose/Swap/master/swap.sh -O swap
 
 Then simply run the file with this format:
 ```
-sh swap <size>
+bash swap <size>
 ```
 
 Example (with 4G):
 ```
-sh swap 4G
+bash swap 4G
 ```
 
 The default path for the swap file is /swapfile. If you wish to change this, simple the file location (file must not exist) add it to the command:
 ```
-sh swap 4G /swap
+bash swap 4G /swap
 ```
